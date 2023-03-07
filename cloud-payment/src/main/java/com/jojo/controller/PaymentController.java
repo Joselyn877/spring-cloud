@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,7 +37,7 @@ public class PaymentController {
     return new CommonResult<Payment>(500,"success",payment);
   }
   @PostMapping("/create")
-  public CommonResult count(Payment payment){
+  public CommonResult count(@RequestBody Payment payment){
     int count = paymentService.create(payment);
     log.info("总条数:{}",count);
     if (count>0){
