@@ -3,9 +3,12 @@ package com.jojo.controller;
 import com.jojo.RemoteService;
 import com.jojo.entry.CommonResult;
 import com.jojo.entry.Payment;
+import java.util.List;
+import javax.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,6 +33,9 @@ public class OrderController {
   @Autowired
   private RestTemplate restTemplate;
 
+  @Resource
+  private DiscoveryClient discoveryClient;
+
   @GetMapping("/payment")
   @ResponseBody
   public CommonResult orderPayment(@RequestParam("id")Long id){
@@ -45,6 +51,21 @@ public class OrderController {
     CommonResult result = restTemplate.postForObject(PAYMENT_URL + "/payment/create", payment, CommonResult.class);    //走RestTemplate
 
     return result;
+  }
+
+  @GetMapping("/discover")
+  public Object discoverd(){
+    //获取eureka服务名称
+    List<String> services = discoveryClient.getServices();
+    for (String service : services) {
+      log.info("服务名:"+service);
+      //获取eureka实例
+      List<ServiceInstance> instances = discoveryClient.getInstances(service);
+      for (ServiceInstance instance : instances) {
+        log.info("服务名:"+service+",请求地址:"+instance.getUri()+",端口:"+instance.getPort());
+      }
+    }
+    return this.discoveryClient;
   }
 
 }

@@ -35,7 +35,7 @@ eureka:
   instance:
     hostname: eureka2  #用于区分eureka集群服务器直接
     lease-expiration-duration-in-seconds: 90 # 最后一次心跳之后，间隔多久微服务不可用，默认90
-    prefer-ip-address: false
+    instance-id: eureka7001
   client:
     register-with-eureka: true #不向自己注册中心注册自己
     fetch-registry: true # 不从自身拉去注册信息

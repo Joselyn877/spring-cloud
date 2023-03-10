@@ -1,9 +1,6 @@
 package com.jojo;
 
-import com.jojo.config.RestTemplateConfig;
-import java.lang.reflect.Method;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -23,11 +20,8 @@ public class OrderServerApplication {
 
   private static ApplicationContext applicationContext;
 
-  public static void main(String[] args) throws NoSuchMethodException {
+  public static void main(String[] args){
 
     applicationContext = new SpringApplicationBuilder(OrderServerApplication.class).run(args);
-    Class aClass = applicationContext.getBean(RestTemplateConfig.class).getClass();
-    Method method = aClass.getMethod("getRestTemplate");
-    log.info(">>>>>>method:[{}]",method);
   }
 }
