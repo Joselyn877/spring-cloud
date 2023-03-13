@@ -26,6 +26,8 @@
     <module>cloud-api</module>
     <module>cloud-payment-zookeeper</module>
     <module>cloud-order-zookeeper</module>
+    <module>cloud-order-consul</module>
+    <module>cloud-payment-consul</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -1,0 +1,3 @@
+com\jojo\OrderServerConsul.class
+com\jojo\controller\BaseController.class
+com\jojo\config\RestTemplateConfig.class

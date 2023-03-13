@@ -1,0 +1,7 @@
+com\jojo\dao\PaymentDao.class
+com\jojo\service\PaymentService.class
+com\jojo\PaymentServerApplication.class
+com\jojo\controller\PaymentController.class
+com\jojo\config\RabbitMQConfig.class
+com\jojo\controller\RabbitTestController.class
+com\jojo\service\impl\PaymentServiceImpl.class

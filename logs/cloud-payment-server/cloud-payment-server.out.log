@@ -1,0 +1,611 @@
+cloud-payment-server 2023-03-08 10:34:51.635 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting PaymentServerApplication using Java 1.8.0_221 on xiaoxin-air14 with PID 15160 (D:\workspace\cloud-service\cloud-payment\target\classes started by lenovo in D:\workspace\cloud-service) 
+cloud-payment-server 2023-03-08 10:34:51.644 DEBUG org.springframework.boot.StartupInfoLogger.logStarting Running with Spring Boot v2.6.4, Spring v5.3.16 
+cloud-payment-server 2023-03-08 10:34:51.645 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo The following 1 profile is active: "8001" 
+cloud-payment-server 2023-03-08 10:34:54.519 INFO org.springframework.cloud.context.scope.GenericScope.setSerializationId BeanFactory id=92641927-c004-3422-9a6a-7cd7af4b1ec0 
+cloud-payment-server 2023-03-08 10:34:55.910 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 8001 (http) 
+cloud-payment-server 2023-03-08 10:34:55.951 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+cloud-payment-server 2023-03-08 10:34:55.952 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.58] 
+cloud-payment-server 2023-03-08 10:34:56.429 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+cloud-payment-server 2023-03-08 10:34:56.430 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 4706 ms 
+cloud-payment-server 2023-03-08 10:34:57.861 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting PaymentServerApplication using Java 1.8.0_221 on xiaoxin-air14 with PID 13432 (D:\workspace\cloud-service\cloud-payment\target\classes started by lenovo in D:\workspace\cloud-service) 
+cloud-payment-server 2023-03-08 10:34:57.866 DEBUG org.springframework.boot.StartupInfoLogger.logStarting Running with Spring Boot v2.6.4, Spring v5.3.16 
+cloud-payment-server 2023-03-08 10:34:57.867 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo The following 1 profile is active: "8002" 
+cloud-payment-server 2023-03-08 10:35:00.500 INFO org.springframework.cloud.context.scope.GenericScope.setSerializationId BeanFactory id=92641927-c004-3422-9a6a-7cd7af4b1ec0 
+cloud-payment-server 2023-03-08 10:35:01.124 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 8002 (http) 
+cloud-payment-server 2023-03-08 10:35:01.145 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+cloud-payment-server 2023-03-08 10:35:01.145 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.58] 
+cloud-payment-server 2023-03-08 10:35:01.431 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+cloud-payment-server 2023-03-08 10:35:01.435 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 3500 ms 
+cloud-payment-server 2023-03-08 10:35:02.132 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs Eureka HTTP Client uses Jersey 
+cloud-payment-server 2023-03-08 10:35:02.371 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+cloud-payment-server 2023-03-08 10:35:02.476 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> Exposing 1 endpoint(s) beneath base path '/actuator' 
+cloud-payment-server 2023-03-08 10:35:02.803 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory.create Setting initial instance status as: STARTING 
+cloud-payment-server 2023-03-08 10:35:02.913 INFO com.netflix.discovery.DiscoveryClient.<init> Initializing Eureka in region us-east-1 
+cloud-payment-server 2023-03-08 10:35:03.083 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-payment-server 2023-03-08 10:35:03.083 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-payment-server 2023-03-08 10:35:03.302 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-payment-server 2023-03-08 10:35:03.303 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-payment-server 2023-03-08 10:35:04.020 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:35:04.117 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
+cloud-payment-server 2023-03-08 10:35:04.119 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
+cloud-payment-server 2023-03-08 10:35:04.120 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
+cloud-payment-server 2023-03-08 10:35:04.121 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
+cloud-payment-server 2023-03-08 10:35:04.121 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
+cloud-payment-server 2023-03-08 10:35:04.122 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
+cloud-payment-server 2023-03-08 10:35:04.132 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
+cloud-payment-server 2023-03-08 10:35:04.789 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry The response status is 200 
+cloud-payment-server 2023-03-08 10:35:04.798 INFO com.netflix.discovery.DiscoveryClient.initScheduledTasks Starting heartbeat executor: renew interval is: 30 
+cloud-payment-server 2023-03-08 10:35:04.804 INFO com.netflix.discovery.InstanceInfoReplicator.<init> InstanceInfoReplicator onDemand update allowed rate per min is 4 
+cloud-payment-server 2023-03-08 10:35:04.826 INFO com.netflix.discovery.DiscoveryClient.<init> Discovery Client initialized at timestamp 1678242904822 with initial instances count: 1 
+cloud-payment-server 2023-03-08 10:35:04.836 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register Registering application CLOUD-PAYMENT-SERVER with eureka with status UP 
+cloud-payment-server 2023-03-08 10:35:04.838 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678242904838, current=UP, previous=STARTING] 
+cloud-payment-server 2023-03-08 10:35:04.844 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001: registering service... 
+cloud-payment-server 2023-03-08 10:35:04.904 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 8001 (http) with context path '' 
+cloud-payment-server 2023-03-08 10:35:04.906 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent Updating port to 8001 
+cloud-payment-server 2023-03-08 10:35:04.918 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001 - registration status: 204 
+cloud-payment-server 2023-03-08 10:35:05.731 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses Attempting to connect to: [192.168.28.148:5672] 
+cloud-payment-server 2023-03-08 10:35:05.799 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection Created new connection: rabbitConnectionFactory#5f5effb0:0/SimpleConnection@110620d [delegate=amqp://guest@192.168.28.148:5672/, localPort= 52669] 
+cloud-payment-server 2023-03-08 10:35:05.949 INFO org.springframework.boot.StartupInfoLogger.logStarted Started PaymentServerApplication in 16.487 seconds (JVM running for 18.717) 
+cloud-payment-server 2023-03-08 10:35:06.466 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+cloud-payment-server 2023-03-08 10:35:06.467 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+cloud-payment-server 2023-03-08 10:35:06.472 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4 ms 
+cloud-payment-server 2023-03-08 10:35:08.586 INFO com.alibaba.druid.pool.DruidDataSource.init {dataSource-1} inited 
+cloud-payment-server 2023-03-08 10:35:09.043 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs Eureka HTTP Client uses Jersey 
+cloud-payment-server 2023-03-08 10:35:09.282 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+cloud-payment-server 2023-03-08 10:35:09.344 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> Exposing 1 endpoint(s) beneath base path '/actuator' 
+cloud-payment-server 2023-03-08 10:35:09.766 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory.create Setting initial instance status as: STARTING 
+cloud-payment-server 2023-03-08 10:35:09.894 INFO com.netflix.discovery.DiscoveryClient.<init> Initializing Eureka in region us-east-1 
+cloud-payment-server 2023-03-08 10:35:10.114 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-payment-server 2023-03-08 10:35:10.114 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-payment-server 2023-03-08 10:35:10.441 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-payment-server 2023-03-08 10:35:10.442 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-payment-server 2023-03-08 10:35:10.872 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:35:10.912 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
+cloud-payment-server 2023-03-08 10:35:10.912 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
+cloud-payment-server 2023-03-08 10:35:10.913 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
+cloud-payment-server 2023-03-08 10:35:10.913 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
+cloud-payment-server 2023-03-08 10:35:10.914 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
+cloud-payment-server 2023-03-08 10:35:10.914 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
+cloud-payment-server 2023-03-08 10:35:10.915 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
+cloud-payment-server 2023-03-08 10:35:11.326 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry The response status is 200 
+cloud-payment-server 2023-03-08 10:35:11.332 INFO com.netflix.discovery.DiscoveryClient.initScheduledTasks Starting heartbeat executor: renew interval is: 30 
+cloud-payment-server 2023-03-08 10:35:11.337 INFO com.netflix.discovery.InstanceInfoReplicator.<init> InstanceInfoReplicator onDemand update allowed rate per min is 4 
+cloud-payment-server 2023-03-08 10:35:11.348 INFO com.netflix.discovery.DiscoveryClient.<init> Discovery Client initialized at timestamp 1678242911346 with initial instances count: 1 
+cloud-payment-server 2023-03-08 10:35:11.351 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register Registering application CLOUD-PAYMENT-SERVER with eureka with status UP 
+cloud-payment-server 2023-03-08 10:35:11.352 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678242911352, current=UP, previous=STARTING] 
+cloud-payment-server 2023-03-08 10:35:11.358 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8002: registering service... 
+cloud-payment-server 2023-03-08 10:35:11.399 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 8002 (http) with context path '' 
+cloud-payment-server 2023-03-08 10:35:11.401 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent Updating port to 8002 
+cloud-payment-server 2023-03-08 10:35:11.416 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8002 - registration status: 204 
+cloud-payment-server 2023-03-08 10:35:12.094 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses Attempting to connect to: [192.168.28.148:5672] 
+cloud-payment-server 2023-03-08 10:35:12.152 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection Created new connection: rabbitConnectionFactory#2c413ffc:0/SimpleConnection@13a268cd [delegate=amqp://guest@192.168.28.148:5672/, localPort= 52701] 
+cloud-payment-server 2023-03-08 10:35:12.286 INFO org.springframework.boot.StartupInfoLogger.logStarted Started PaymentServerApplication in 17.282 seconds (JVM running for 19.31) 
+cloud-payment-server 2023-03-08 10:35:12.798 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+cloud-payment-server 2023-03-08 10:35:12.798 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+cloud-payment-server 2023-03-08 10:35:12.803 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4 ms 
+cloud-payment-server 2023-03-08 10:35:12.926 INFO com.alibaba.druid.pool.DruidDataSource.init {dataSource-1} inited 
+cloud-payment-server 2023-03-08 10:40:04.141 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:40:10.923 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:45:04.143 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:45:10.925 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:50:04.149 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:50:10.927 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:55:04.164 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 10:55:10.929 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:00:04.170 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:00:10.933 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:05:04.176 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:05:10.943 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:10:04.189 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:10:10.945 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:15:04.193 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:15:10.951 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:20:04.195 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:20:10.956 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:25:04.204 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:25:10.965 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:30:04.206 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:30:10.969 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:35:04.220 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:35:10.982 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:40:04.224 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:40:10.986 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:45:04.238 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:45:10.991 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:48:37.351 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister Unregistering application CLOUD-PAYMENT-SERVER with eureka with status DOWN 
+cloud-payment-server 2023-03-08 11:48:37.352 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678247317352, current=DOWN, previous=UP] 
+cloud-payment-server 2023-03-08 11:48:37.352 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001: registering service... 
+cloud-payment-server 2023-03-08 11:48:37.357 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001 - registration status: 204 
+cloud-payment-server 2023-03-08 11:48:37.358 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown Waiting for workers to finish. 
+cloud-payment-server 2023-03-08 11:48:38.157 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown Successfully waited for workers to finish. 
+cloud-payment-server 2023-03-08 11:48:38.391 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closing ... 
+cloud-payment-server 2023-03-08 11:48:38.403 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closed 
+cloud-payment-server 2023-03-08 11:48:38.406 INFO com.netflix.discovery.DiscoveryClient.shutdown Shutting down DiscoveryClient ... 
+cloud-payment-server 2023-03-08 11:48:41.423 WARN com.netflix.discovery.TimedSupervisorTask.run task supervisor shutting down, can't accept the task 
+cloud-payment-server 2023-03-08 11:48:41.425 INFO com.netflix.discovery.DiscoveryClient.unregister Unregistering ... 
+cloud-payment-server 2023-03-08 11:48:41.438 INFO com.netflix.discovery.DiscoveryClient.unregister DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001 - deregister  status: 200 
+cloud-payment-server 2023-03-08 11:48:41.450 INFO com.netflix.discovery.DiscoveryClient.shutdown Completed shut down of DiscoveryClient 
+cloud-payment-server 2023-03-08 11:50:10.992 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:50:32.087 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting PaymentServerApplication using Java 1.8.0_221 on xiaoxin-air14 with PID 18564 (D:\workspace\cloud-service\cloud-payment\target\classes started by lenovo in D:\workspace\cloud-service) 
+cloud-payment-server 2023-03-08 11:50:32.091 DEBUG org.springframework.boot.StartupInfoLogger.logStarting Running with Spring Boot v2.6.4, Spring v5.3.16 
+cloud-payment-server 2023-03-08 11:50:32.092 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo The following 1 profile is active: "8001" 
+cloud-payment-server 2023-03-08 11:50:33.165 INFO org.springframework.cloud.context.scope.GenericScope.setSerializationId BeanFactory id=92641927-c004-3422-9a6a-7cd7af4b1ec0 
+cloud-payment-server 2023-03-08 11:50:33.535 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 8001 (http) 
+cloud-payment-server 2023-03-08 11:50:33.545 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+cloud-payment-server 2023-03-08 11:50:33.545 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.58] 
+cloud-payment-server 2023-03-08 11:50:33.664 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+cloud-payment-server 2023-03-08 11:50:33.664 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 1537 ms 
+cloud-payment-server 2023-03-08 11:50:35.895 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs Eureka HTTP Client uses Jersey 
+cloud-payment-server 2023-03-08 11:50:35.962 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+cloud-payment-server 2023-03-08 11:50:35.982 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> Exposing 1 endpoint(s) beneath base path '/actuator' 
+cloud-payment-server 2023-03-08 11:50:36.140 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory.create Setting initial instance status as: STARTING 
+cloud-payment-server 2023-03-08 11:50:36.169 INFO com.netflix.discovery.DiscoveryClient.<init> Initializing Eureka in region us-east-1 
+cloud-payment-server 2023-03-08 11:50:36.225 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-payment-server 2023-03-08 11:50:36.226 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-payment-server 2023-03-08 11:50:36.323 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-payment-server 2023-03-08 11:50:36.323 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-payment-server 2023-03-08 11:50:36.467 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:50:36.482 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
+cloud-payment-server 2023-03-08 11:50:36.483 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
+cloud-payment-server 2023-03-08 11:50:36.483 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
+cloud-payment-server 2023-03-08 11:50:36.483 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
+cloud-payment-server 2023-03-08 11:50:36.483 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
+cloud-payment-server 2023-03-08 11:50:36.483 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
+cloud-payment-server 2023-03-08 11:50:36.483 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
+cloud-payment-server 2023-03-08 11:50:36.624 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry The response status is 200 
+cloud-payment-server 2023-03-08 11:50:36.627 INFO com.netflix.discovery.DiscoveryClient.initScheduledTasks Starting heartbeat executor: renew interval is: 30 
+cloud-payment-server 2023-03-08 11:50:36.629 INFO com.netflix.discovery.InstanceInfoReplicator.<init> InstanceInfoReplicator onDemand update allowed rate per min is 4 
+cloud-payment-server 2023-03-08 11:50:36.633 INFO com.netflix.discovery.DiscoveryClient.<init> Discovery Client initialized at timestamp 1678247436632 with initial instances count: 4 
+cloud-payment-server 2023-03-08 11:50:36.634 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register Registering application CLOUD-PAYMENT-SERVER with eureka with status UP 
+cloud-payment-server 2023-03-08 11:50:36.635 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678247436635, current=UP, previous=STARTING] 
+cloud-payment-server 2023-03-08 11:50:36.639 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001: registering service... 
+cloud-payment-server 2023-03-08 11:50:36.658 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 8001 (http) with context path '' 
+cloud-payment-server 2023-03-08 11:50:36.659 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent Updating port to 8001 
+cloud-payment-server 2023-03-08 11:50:36.684 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001 - registration status: 204 
+cloud-payment-server 2023-03-08 11:50:37.010 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses Attempting to connect to: [192.168.28.148:5672] 
+cloud-payment-server 2023-03-08 11:50:37.042 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection Created new connection: rabbitConnectionFactory#e38f0b7:0/SimpleConnection@6029f2a4 [delegate=amqp://guest@192.168.28.148:5672/, localPort= 55724] 
+cloud-payment-server 2023-03-08 11:50:37.110 INFO org.springframework.boot.StartupInfoLogger.logStarted Started PaymentServerApplication in 6.114 seconds (JVM running for 7.44) 
+cloud-payment-server 2023-03-08 11:50:37.925 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+cloud-payment-server 2023-03-08 11:50:37.926 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+cloud-payment-server 2023-03-08 11:50:37.929 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 3 ms 
+cloud-payment-server 2023-03-08 11:50:37.996 INFO com.alibaba.druid.pool.DruidDataSource.init {dataSource-1} inited 
+cloud-payment-server 2023-03-08 11:55:11.005 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 11:55:36.501 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:00:11.008 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:00:36.515 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:05:11.010 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:05:36.528 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:10:11.015 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:10:36.539 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:15:11.023 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:15:36.548 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:20:11.026 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:20:36.550 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:25:11.030 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:25:36.556 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:30:11.031 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:30:36.563 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:35:11.037 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:35:36.578 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:40:11.041 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:40:36.585 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:45:11.050 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:45:36.590 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:50:11.054 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:50:36.594 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:55:11.071 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 12:55:36.607 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:00:11.075 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:00:36.622 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:05:11.078 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:05:36.637 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:10:11.083 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:10:36.638 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:15:11.100 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:15:36.649 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:20:11.103 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:20:36.652 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:25:11.104 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:25:36.667 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:30:11.109 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:30:36.683 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:35:11.114 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:35:36.698 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:40:11.116 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:40:36.708 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:45:11.118 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:45:36.722 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:50:11.121 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:50:36.731 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:55:11.131 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 13:55:36.746 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:00:11.134 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:00:36.759 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:05:11.141 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:05:36.767 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:10:11.142 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:10:36.782 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:15:11.155 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:15:36.793 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:20:11.157 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:20:36.808 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:25:11.168 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:25:36.822 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:30:11.172 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:30:36.831 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:35:11.182 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:35:36.848 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:40:11.183 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:40:36.863 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-payment-server 2023-03-08 14:44:27.417 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister Unregistering application CLOUD-PAYMENT-SERVER with eureka with status DOWN 
+cloud-payment-server 2023-03-08 14:44:27.418 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678257867418, current=DOWN, previous=UP] 
+cloud-payment-server 2023-03-08 14:44:27.418 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001: registering service... 
+cloud-payment-server 2023-03-08 14:44:27.424 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001 - registration status: 204 
+cloud-payment-server 2023-03-08 14:44:27.425 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown Waiting for workers to finish. 
+cloud-payment-server 2023-03-08 14:44:27.465 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister Unregistering application CLOUD-PAYMENT-SERVER with eureka with status DOWN 
+cloud-payment-server 2023-03-08 14:44:27.466 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678257867466, current=DOWN, previous=UP] 
+cloud-payment-server 2023-03-08 14:44:27.467 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8002: registering service... 
+cloud-payment-server 2023-03-08 14:44:27.488 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8002 - registration status: 204 
+cloud-payment-server 2023-03-08 14:44:27.507 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown Waiting for workers to finish. 
+cloud-payment-server 2023-03-08 14:44:27.968 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown Successfully waited for workers to finish. 
+cloud-payment-server 2023-03-08 14:44:28.377 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown Successfully waited for workers to finish. 
+cloud-payment-server 2023-03-08 14:44:28.798 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closing ... 
+cloud-payment-server 2023-03-08 14:44:28.799 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closed 
+cloud-payment-server 2023-03-08 14:44:28.804 INFO com.netflix.discovery.DiscoveryClient.shutdown Shutting down DiscoveryClient ... 
+cloud-payment-server 2023-03-08 14:44:28.895 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closing ... 
+cloud-payment-server 2023-03-08 14:44:28.897 INFO com.alibaba.druid.pool.DruidDataSource.close {dataSource-1} closed 
+cloud-payment-server 2023-03-08 14:44:28.903 INFO com.netflix.discovery.DiscoveryClient.shutdown Shutting down DiscoveryClient ... 
+cloud-payment-server 2023-03-08 14:44:31.808 INFO com.netflix.discovery.DiscoveryClient.unregister Unregistering ... 
+cloud-payment-server 2023-03-08 14:44:31.908 INFO com.netflix.discovery.DiscoveryClient.unregister Unregistering ... 
+cloud-payment-server 2023-03-08 14:44:33.821 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 more
+ 
+cloud-payment-server 2023-03-08 14:44:33.822 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-payment-server 2023-03-08 14:44:33.926 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 more
+ 
+cloud-payment-server 2023-03-08 14:44:33.927 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-payment-server 2023-03-08 14:44:35.831 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 47 more
+ 
+cloud-payment-server 2023-03-08 14:44:35.831 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-payment-server 2023-03-08 14:44:35.837 ERROR com.netflix.discovery.DiscoveryClient.unregister DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8001 - de-registration failedCannot execute request on any known server 
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+cloud-payment-server 2023-03-08 14:44:35.846 INFO com.netflix.discovery.DiscoveryClient.shutdown Completed shut down of DiscoveryClient 
+cloud-payment-server 2023-03-08 14:44:35.939 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 47 more
+ 
+cloud-payment-server 2023-03-08 14:44:35.939 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-payment-server 2023-03-08 14:44:35.945 ERROR com.netflix.discovery.DiscoveryClient.unregister DiscoveryClient_CLOUD-PAYMENT-SERVER/payment8002 - de-registration failedCannot execute request on any known server 
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+cloud-payment-server 2023-03-08 14:44:35.959 INFO com.netflix.discovery.DiscoveryClient.shutdown Completed shut down of DiscoveryClient 

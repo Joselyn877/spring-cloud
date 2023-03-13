@@ -1,0 +1,46 @@
+server:
+  port: 7001
+
+# Spring config
+spring:
+  application:
+    name: cloud-eureka-server
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/test?useUnicode=ture&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: 123456
+  rabbitmq:
+    host: 192.168.28.148
+    port: 5672
+    username: guest
+    password: guest
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+logging:
+  level:
+    com:
+      jojo: debug
+    com.netflix.eureka.registry.AbstractInstanceRegistry: warn
+  file:
+    name: logs/${spring.application.name}/${spring.application.name}.out.log
+  pattern:
+    file: ${spring.application.name} %d{yyyy-MM-dd HH:mm:ss.SSS} %p %C.%M %m %n
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} - [%thread] %-5level %logger{36} - %msg%n"
+
+  #Eureka config
+eureka:
+  instance:
+    hostname: eureka1  #用于区分eureka集群服务器直接
+    lease-expiration-duration-in-seconds: 90 # 最后一次心跳之后，间隔多久微服务不可用，默认90
+    instance-id: eureka7001
+  client:
+    register-with-eureka: true #不向自己注册中心注册自己
+    fetch-registry: true # 不从自身拉去注册信息
+    service-url:
+      defaultZone: http://eureka1:7001/eureka/,http://eureka2:7002/eureka/
+  server:
+    eviction-interval-timer-in-ms: 60
+    enable-self-preservation: false #eureka 自我保护机制，测试阶段需要关闭，生产需要打开

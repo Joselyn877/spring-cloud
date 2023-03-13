@@ -1,0 +1,3 @@
+com\jojo\controller\BaseController.class
+com\jojo\config\RestTemplateConfig.class
+com\jojo\OrderServerZoo.class
