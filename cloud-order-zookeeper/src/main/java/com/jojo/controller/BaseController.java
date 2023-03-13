@@ -6,8 +6,10 @@ import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -32,10 +34,16 @@ public class BaseController {
   @GetMapping("/payment")
   @ResponseBody
   public CommonResult getPayment(@RequestParam("id")Long id){
-    log.info("id:"+id);
-    HashMap<Object, Object> map = new HashMap<>();
+    //请求头
+    HttpHeaders headers = new HttpHeaders();
+    headers.setContentType(MediaType.APPLICATION_JSON);
+    //请求参数
+    HashMap<String, Long> map = new HashMap<>();
     map.put("id",id);
-    CommonResult result = restTemplate.postForObject(PAYMENT_URL + "/payment/get",map,CommonResult.class);
+
+    HttpEntity<HashMap<String,Long>> request = new HttpEntity<>(map,headers);
+
+    CommonResult result = restTemplate.postForObject(PAYMENT_URL + "/payment/get",request,CommonResult.class);
     return result;
   }
 
