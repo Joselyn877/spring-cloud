@@ -1,1 +1,2 @@
-aaa
+这是spring-cloud各组件的运用，生产者、消费者、Eureka、Feign、Hystrix，再到Zookeeper替换Eureka作为注册中心，RestTemplate替换Feign
+作为远程调用。
