@@ -1,8 +1,8 @@
 package com.jojo.service.impl;
 
 import com.jojo.dao.PaymentDao;
-import com.jojo.entry.CommonResult;
-import com.jojo.entry.Payment;
+import com.jojo.springcloud.response.CommonResult;
+import com.jojo.springcloud.entry.Payment;
 import com.jojo.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

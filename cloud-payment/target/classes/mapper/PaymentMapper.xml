@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE  mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.jojo.dao.PaymentDao">
-  <insert id="create" parameterType="com.jojo.entry.Payment" useGeneratedKeys="true" keyProperty="id">
+<mapper namespace="com.jojo.springcloud.dao.PaymentDao">
+  <insert id="create" parameterType="com.jojo.springcloud.entry.Payment" useGeneratedKeys="true" keyProperty="id">
     insert into payment(serial) values (#{serial})
   </insert>
-  <resultMap id="BaseResultMap" type="com.jojo.entry.Payment">
+  <resultMap id="BaseResultMap" type="com.jojo.springcloud.entry.Payment">
     <id column="id" property="id" jdbcType="BIGINT"/>
     <id column="serial" property="serial" jdbcType="VARCHAR"/>
   </resultMap>

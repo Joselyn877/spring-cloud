@@ -1,7 +1,7 @@
 package com.jojo.service;
 
-import com.jojo.entry.CommonResult;
-import com.jojo.entry.Payment;
+import com.jojo.springcloud.response.CommonResult;
+import com.jojo.springcloud.entry.Payment;
 
 /**
  * @auther Easy

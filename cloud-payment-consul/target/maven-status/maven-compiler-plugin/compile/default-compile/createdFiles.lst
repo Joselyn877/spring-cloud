@@ -1,5 +1,5 @@
 com\jojo\PaymentServerConsul.class
-com\jojo\controller\BaseController.class
 com\jojo\dao\PaymentDao.class
 com\jojo\service\PaymentService.class
+com\jojo\springcloud\controller\BaseController.class
 com\jojo\service\impl\PaymentServiceImpl.class

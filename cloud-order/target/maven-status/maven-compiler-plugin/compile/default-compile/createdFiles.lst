@@ -1,3 +1,4 @@
-com\jojo\config\RestTemplateConfig.class
-com\jojo\controller\OrderController.class
-com\jojo\OrderServerApplication.class
+com\jojo\springcloud\controller\OrderController.class
+com\jojo\springcloud\OrderServerApplication.class
+com\jojo\springcloud\config\RestTemplateConfig.class
+com\jojo\myrule\RibbonRule.class

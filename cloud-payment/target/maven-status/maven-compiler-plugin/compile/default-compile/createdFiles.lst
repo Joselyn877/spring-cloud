@@ -1,7 +1,7 @@
-com\jojo\dao\PaymentDao.class
-com\jojo\service\PaymentService.class
-com\jojo\PaymentServerApplication.class
-com\jojo\controller\PaymentController.class
-com\jojo\config\RabbitMQConfig.class
-com\jojo\controller\RabbitTestController.class
-com\jojo\service\impl\PaymentServiceImpl.class
+com\jojo\springcloud\config\RabbitMQConfig.class
+com\jojo\springcloud\controller\PaymentController.class
+com\jojo\springcloud\controller\RabbitTestController.class
+com\jojo\springcloud\dao\PaymentDao.class
+com\jojo\springcloud\service\PaymentService.class
+com\jojo\springcloud\PaymentServerApplication.class
+com\jojo\springcloud\service\impl\PaymentServiceImpl.class

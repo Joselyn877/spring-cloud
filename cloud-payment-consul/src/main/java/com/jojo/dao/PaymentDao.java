@@ -1,6 +1,6 @@
 package com.jojo.dao;
 
-import com.jojo.entry.Payment;
+import com.jojo.springcloud.entry.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

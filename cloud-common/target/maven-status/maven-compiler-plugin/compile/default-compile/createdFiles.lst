@@ -1,2 +1,2 @@
-com\jojo\entry\CommonResult.class
-com\jojo\entry\Payment.class
+com\jojo\springcloud\entry\Payment.class
+com\jojo\springcloud\entry\CommonResult.class
