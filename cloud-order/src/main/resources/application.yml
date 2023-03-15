@@ -20,6 +20,7 @@ mybatis:
 
 logging:
   level:
+    com.jojo.springcloud.feign.RemoteService: debug
     com.jojo: debug
   root: info
   file:

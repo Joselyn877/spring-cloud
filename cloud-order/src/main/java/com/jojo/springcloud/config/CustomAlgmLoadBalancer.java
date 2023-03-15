@@ -20,7 +20,7 @@ import reactor.core.publisher.Mono;
  * @auther Easy
  * @date 2023/3/14 16:15
  * @revision 0.1 version
- * 自定义负载均衡算法
+ * 自定义负载均衡算法，3次一切
  */
 @Slf4j
 public class CustomAlgmLoadBalancer implements ReactorServiceInstanceLoadBalancer {

@@ -24,8 +24,9 @@ import org.springframework.context.ApplicationContext;
         @LoadBalancerClient(value = "cloud-payment-server", configuration = LoadBalanceConfig.class)
     }, defaultConfiguration = LoadBalancerClientConfiguration.class
 )
-//自定义LoadBalance算法：1.指定服务提供者；2.引用自定义规则RandomLoadBalancer随机规则
 //LoadBalancerClient单应用，LoadBalancerClients多应用，只需要在消费者方指明生产者以及负载均衡策略
+//List<ServiceInstance> instances = discoverClient.getInstances("服务名")
+//轮询算法（求余）：请求次数 % 服务器总数 = 实际调用服务器下标
 public class OrderServerApplication {
 
   private static ApplicationContext applicationContext;
