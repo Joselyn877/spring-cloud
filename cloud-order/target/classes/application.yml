@@ -40,3 +40,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka1:7001/eureka
+
+#feign 开启熔断降级
+feign:
+  circuitbreaker:
+    enabled: true

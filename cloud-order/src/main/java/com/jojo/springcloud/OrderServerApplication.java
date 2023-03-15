@@ -3,6 +3,7 @@ package com.jojo.springcloud;
 import com.jojo.springcloud.config.LoadBalanceConfig;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration;
@@ -16,6 +17,7 @@ import org.springframework.context.ApplicationContext;
  * @date 2023/3/1 23:13
  * @revision 0.1 version
  */
+@EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients("com.jojo.springcloud.feign")

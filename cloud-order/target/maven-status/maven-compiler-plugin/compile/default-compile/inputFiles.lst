@@ -1,4 +1,7 @@
+D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\config\CustomAlgmLoadBalancer.java
 D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\controller\OrderController.java
+D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\config\FeignConfig.java
+D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\controller\BaseController.java
+D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\config\LoadBalanceConfig.java
 D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\config\RestTemplateConfig.java
 D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\springcloud\OrderServerApplication.java
-D:\workspace\cloud-service\cloud-order\src\main\java\com\jojo\myrule\RibbonRule.java
