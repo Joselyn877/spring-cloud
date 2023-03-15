@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @auther Easy
  * @date 2023/3/15 16:31
  * @revision 0.1 version
- * Feign全局降级
+ * Feign全局降级，实现接口RemoteService，fallback = RemoteFallBackService.class
  *
  */
 @Component
