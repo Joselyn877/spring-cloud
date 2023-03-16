@@ -32,7 +32,7 @@ logging:
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 30 #每隔30秒向eureka发送信息告诉服务还活着
-    instance-id: payment9002
+    instance-id: order9002
     prefer-ip-address: true
   client:
     register-with-eureka: true

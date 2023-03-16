@@ -1,0 +1,10 @@
+server:
+  port: 6001
+
+spring:
+  application:
+    name: cloud-hystrix-dashboard-server
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: localhost

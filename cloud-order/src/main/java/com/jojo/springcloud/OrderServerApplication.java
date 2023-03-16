@@ -1,8 +1,10 @@
 package com.jojo.springcloud;
 
 import com.jojo.springcloud.config.LoadBalanceConfig;
+import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
@@ -11,6 +13,7 @@ import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClients;
 import org.springframework.cloud.loadbalancer.core.RandomLoadBalancer;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
 
 /**
  * @auther Easy
@@ -36,5 +39,21 @@ public class OrderServerApplication {
   public static void main(String[] args){
 
     applicationContext = new SpringApplicationBuilder(OrderServerApplication.class).run(args);
+  }
+
+  /**
+   * 此配置为了服务监控而配置，与服务容错无关，springcloud升级之后流下的坑
+   * ServletRegistrationBean因为springboot默认路径不是 "/hystrix.stream"
+   * 只要在需要hystrixdashboard监控的项目里面加入以下配置即可
+   * @return
+   */
+  @Bean
+  public ServletRegistrationBean getServlet(){
+    HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
+    ServletRegistrationBean registrationBean = new ServletRegistrationBean<>(streamServlet);
+    registrationBean.setLoadOnStartup(1);
+    registrationBean.addUrlMappings("/hystrix.stream");
+    registrationBean.setName("HystrixMetricsStreamServlet");
+    return registrationBean;
   }
 }

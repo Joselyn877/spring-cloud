@@ -55,5 +55,10 @@
       <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
       <version>2.2.9.RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.1.16</version>
+    </dependency>
   </dependencies>
 </project>

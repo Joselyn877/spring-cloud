@@ -28,6 +28,8 @@
     <module>cloud-order-zookeeper</module>
     <module>cloud-order-consul</module>
     <module>cloud-payment-consul</module>
+    <module>cloud-hystrix-dashboard</module>
+    <module>cloud-gateway</module>
   </modules>
   <packaging>pom</packaging>
 
