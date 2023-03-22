@@ -1,0 +1,20 @@
+server:
+  port: 3377
+
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        #server-addr: 192.168.28.1:8848 单机
+        server-addr: 192.168.28.1:8111  #nginx代理的nacos集群
+      config:
+        #server-addr: 192.168.28.1:8848 单机
+        server-addr: 192.168.28.1:8111  #nginx代理的nacos集群
+        file-extension: yaml
+        group: DEFAULT_GROUP
+        namespace: 9ec7c206-a4c1-4f6f-8d7c-bb64be0fd678    # 不写namespace走的是public默认空间，写了namespace，value为namespace的序列id
+
+#Data ID = ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}

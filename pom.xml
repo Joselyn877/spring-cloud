@@ -30,6 +30,11 @@
     <module>cloud-payment-consul</module>
     <module>cloud-hystrix-dashboard</module>
     <module>cloud-gateway</module>
+    <module>cloud-config</module>
+    <module>cloud-payment-nacos</module>
+    <module>cloud-order-nacos</module>
+    <module>cloud-nacos-config</module>
+    <module>cloud-sentinel</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -39,6 +44,13 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
         <version>2021.0.3</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.0.0.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
