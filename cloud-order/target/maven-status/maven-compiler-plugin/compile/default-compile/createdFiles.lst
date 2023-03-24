@@ -1,7 +1,0 @@
-com\jojo\springcloud\config\FeignConfig.class
-com\jojo\springcloud\config\LoadBalanceConfig.class
-com\jojo\springcloud\controller\OrderController.class
-com\jojo\springcloud\OrderServerApplication.class
-com\jojo\springcloud\config\RestTemplateConfig.class
-com\jojo\springcloud\controller\BaseController.class
-com\jojo\springcloud\config\CustomAlgmLoadBalancer.class
