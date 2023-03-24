@@ -1,9 +1,0 @@
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\config\RabbitMQConfig.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\service\PaymentService.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\controller\RabbitTestController.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\controller\BaseController.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\dao\PaymentDao.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\PaymentServerApplication.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\service\BaseService.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\controller\PaymentController.java
-D:\workspace\cloud-service\cloud-payment\src\main\java\com\jojo\springcloud\service\impl\PaymentServiceImpl.java
