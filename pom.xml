@@ -35,6 +35,7 @@
     <module>cloud-order-nacos</module>
     <module>cloud-nacos-config</module>
     <module>cloud-sentinel</module>
+    <module>cloud-nacos-seata-order-service</module>
   </modules>
   <packaging>pom</packaging>
 

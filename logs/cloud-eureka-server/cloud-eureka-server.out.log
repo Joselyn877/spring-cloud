@@ -1,34 +1,56 @@
-cloud-eureka-server 2023-03-13 17:25:28.821 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting EurekaServerApplication using Java 1.8.0_221 on xiaoxin-air14 with PID 22400 (D:\workspace\cloud-service\cloud-eureka\target\classes started by lenovo in D:\workspace\cloud-service) 
-cloud-eureka-server 2023-03-13 17:25:28.825 DEBUG org.springframework.boot.StartupInfoLogger.logStarting Running with Spring Boot v2.6.4, Spring v5.3.16 
-cloud-eureka-server 2023-03-13 17:25:28.825 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo The following 1 profile is active: "7002" 
-cloud-eureka-server 2023-03-13 17:25:29.565 INFO org.springframework.cloud.context.scope.GenericScope.setSerializationId BeanFactory id=d1967e63-0146-31c8-9804-014e4b81bd2c 
-cloud-eureka-server 2023-03-13 17:25:29.760 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 7002 (http) 
-cloud-eureka-server 2023-03-13 17:25:29.767 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
-cloud-eureka-server 2023-03-13 17:25:29.768 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.58] 
-cloud-eureka-server 2023-03-13 17:25:29.864 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
-cloud-eureka-server 2023-03-13 17:25:29.865 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 1005 ms 
-cloud-eureka-server 2023-03-13 17:25:30.242 INFO com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
-cloud-eureka-server 2023-03-13 17:25:30.294 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
-cloud-eureka-server 2023-03-13 17:25:30.294 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
-cloud-eureka-server 2023-03-13 17:25:30.427 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
-cloud-eureka-server 2023-03-13 17:25:30.427 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
-cloud-eureka-server 2023-03-13 17:25:31.754 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs Eureka HTTP Client uses Jersey 
-cloud-eureka-server 2023-03-13 17:25:31.799 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
-cloud-eureka-server 2023-03-13 17:25:31.825 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory.create Setting initial instance status as: STARTING 
-cloud-eureka-server 2023-03-13 17:25:31.853 INFO com.netflix.discovery.DiscoveryClient.<init> Initializing Eureka in region us-east-1 
-cloud-eureka-server 2023-03-13 17:25:32.221 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
-cloud-eureka-server 2023-03-13 17:25:32.221 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
-cloud-eureka-server 2023-03-13 17:25:32.221 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
-cloud-eureka-server 2023-03-13 17:25:32.221 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
-cloud-eureka-server 2023-03-13 17:25:32.288 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
-cloud-eureka-server 2023-03-13 17:25:32.302 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
-cloud-eureka-server 2023-03-13 17:25:32.303 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
-cloud-eureka-server 2023-03-13 17:25:32.303 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
-cloud-eureka-server 2023-03-13 17:25:32.304 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
-cloud-eureka-server 2023-03-13 17:25:32.304 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
-cloud-eureka-server 2023-03-13 17:25:32.304 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
-cloud-eureka-server 2023-03-13 17:25:32.304 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
-cloud-eureka-server 2023-03-13 17:25:34.353 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+cloud-eureka-server 2023-03-20 10:52:24.869 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting EurekaServerApplication using Java 1.8.0_221 on xiaoxin-air14 with PID 4740 (D:\workspace\cloud-service\cloud-eureka\target\classes started by lenovo in D:\workspace\cloud-service) 
+cloud-eureka-server 2023-03-20 10:52:24.877 DEBUG org.springframework.boot.StartupInfoLogger.logStarting Running with Spring Boot v2.6.4, Spring v5.3.16 
+cloud-eureka-server 2023-03-20 10:52:24.878 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo No active profile set, falling back to 1 default profile: "default" 
+cloud-eureka-server 2023-03-20 10:52:26.066 INFO org.springframework.cloud.context.scope.GenericScope.setSerializationId BeanFactory id=d1967e63-0146-31c8-9804-014e4b81bd2c 
+cloud-eureka-server 2023-03-20 10:52:26.381 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 7001 (http) 
+cloud-eureka-server 2023-03-20 10:52:26.390 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+cloud-eureka-server 2023-03-20 10:52:26.390 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.58] 
+cloud-eureka-server 2023-03-20 10:52:26.481 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+cloud-eureka-server 2023-03-20 10:52:26.481 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 1546 ms 
+cloud-eureka-server 2023-03-20 10:52:27.008 INFO com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+cloud-eureka-server 2023-03-20 10:52:27.118 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:27.120 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:27.384 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:27.385 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:28.141 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting EurekaServerApplication using Java 1.8.0_221 on xiaoxin-air14 with PID 1412 (D:\workspace\cloud-service\cloud-eureka\target\classes started by lenovo in D:\workspace\cloud-service) 
+cloud-eureka-server 2023-03-20 10:52:28.144 DEBUG org.springframework.boot.StartupInfoLogger.logStarting Running with Spring Boot v2.6.4, Spring v5.3.16 
+cloud-eureka-server 2023-03-20 10:52:28.145 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo The following 1 profile is active: "7002" 
+cloud-eureka-server 2023-03-20 10:52:28.993 INFO org.springframework.cloud.context.scope.GenericScope.setSerializationId BeanFactory id=d1967e63-0146-31c8-9804-014e4b81bd2c 
+cloud-eureka-server 2023-03-20 10:52:29.186 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs Eureka HTTP Client uses Jersey 
+cloud-eureka-server 2023-03-20 10:52:29.209 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 7002 (http) 
+cloud-eureka-server 2023-03-20 10:52:29.219 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+cloud-eureka-server 2023-03-20 10:52:29.219 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.58] 
+cloud-eureka-server 2023-03-20 10:52:29.238 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+cloud-eureka-server 2023-03-20 10:52:29.256 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory.create Setting initial instance status as: STARTING 
+cloud-eureka-server 2023-03-20 10:52:29.283 INFO com.netflix.discovery.DiscoveryClient.<init> Initializing Eureka in region us-east-1 
+cloud-eureka-server 2023-03-20 10:52:29.312 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+cloud-eureka-server 2023-03-20 10:52:29.312 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 1120 ms 
+cloud-eureka-server 2023-03-20 10:52:29.766 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:29.766 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:29.766 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:29.767 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:29.799 INFO com.sun.jersey.server.impl.application.WebApplicationImpl._initiate Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+cloud-eureka-server 2023-03-20 10:52:29.851 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 10:52:29.869 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:29.871 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
+cloud-eureka-server 2023-03-20 10:52:29.871 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:29.872 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
+cloud-eureka-server 2023-03-20 10:52:29.873 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
+cloud-eureka-server 2023-03-20 10:52:29.873 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
+cloud-eureka-server 2023-03-20 10:52:29.874 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
+cloud-eureka-server 2023-03-20 10:52:29.874 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
+cloud-eureka-server 2023-03-20 10:52:29.874 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
+cloud-eureka-server 2023-03-20 10:52:30.012 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:30.012 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:31.448 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration.discoveryClientOptionalArgs Eureka HTTP Client uses Jersey 
+cloud-eureka-server 2023-03-20 10:52:31.491 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath. 
+cloud-eureka-server 2023-03-20 10:52:31.505 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory.create Setting initial instance status as: STARTING 
+cloud-eureka-server 2023-03-20 10:52:31.532 INFO com.netflix.discovery.DiscoveryClient.<init> Initializing Eureka in region us-east-1 
+cloud-eureka-server 2023-03-20 10:52:31.904 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:31.904 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:31.905 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:31.905 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:31.963 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -130,7 +152,7 @@ cloud-eureka-server 2023-03-13 17:25:34.353 INFO com.netflix.discovery.shared.tr
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.jojo.EurekaServerApplication.main(EurekaServerApplication.java:17)
+	at com.jojo.springcloud.EurekaServerApplication.main(EurekaServerApplication.java:17)
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -152,8 +174,16 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 101 more
  
-cloud-eureka-server 2023-03-13 17:25:34.354 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
-cloud-eureka-server 2023-03-13 17:25:36.386 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+cloud-eureka-server 2023-03-20 10:52:31.964 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 10:52:31.968 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 10:52:31.983 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
+cloud-eureka-server 2023-03-20 10:52:31.983 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
+cloud-eureka-server 2023-03-20 10:52:31.983 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
+cloud-eureka-server 2023-03-20 10:52:31.985 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
+cloud-eureka-server 2023-03-20 10:52:31.985 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
+cloud-eureka-server 2023-03-20 10:52:31.985 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
+cloud-eureka-server 2023-03-20 10:52:31.985 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
+cloud-eureka-server 2023-03-20 10:52:33.994 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -255,7 +285,7 @@ cloud-eureka-server 2023-03-13 17:25:36.386 INFO com.netflix.discovery.shared.tr
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.jojo.EurekaServerApplication.main(EurekaServerApplication.java:17)
+	at com.jojo.springcloud.EurekaServerApplication.main(EurekaServerApplication.java:17)
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -277,8 +307,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 101 more
  
-cloud-eureka-server 2023-03-13 17:25:36.388 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
-cloud-eureka-server 2023-03-13 17:25:36.389 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+cloud-eureka-server 2023-03-20 10:52:33.995 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 10:52:33.997 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
@@ -363,50 +393,127 @@ cloud-eureka-server 2023-03-13 17:25:36.389 INFO com.netflix.discovery.Discovery
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.jojo.EurekaServerApplication.main(EurekaServerApplication.java:17)
+	at com.jojo.springcloud.EurekaServerApplication.main(EurekaServerApplication.java:17)
  
-cloud-eureka-server 2023-03-13 17:25:36.390 INFO com.netflix.discovery.DiscoveryClient.<init> Initial registry fetch from primary servers failed 
-cloud-eureka-server 2023-03-13 17:25:36.390 WARN com.netflix.discovery.DiscoveryClient$1.get Using default backup registry implementation which does not do anything. 
-cloud-eureka-server 2023-03-13 17:25:36.391 INFO com.netflix.discovery.DiscoveryClient.<init> Initial registry fetch from backup servers failed 
-cloud-eureka-server 2023-03-13 17:25:36.393 INFO com.netflix.discovery.DiscoveryClient.initScheduledTasks Starting heartbeat executor: renew interval is: 30 
-cloud-eureka-server 2023-03-13 17:25:36.396 INFO com.netflix.discovery.InstanceInfoReplicator.<init> InstanceInfoReplicator onDemand update allowed rate per min is 4 
-cloud-eureka-server 2023-03-13 17:25:36.401 INFO com.netflix.discovery.DiscoveryClient.<init> Discovery Client initialized at timestamp 1678699536400 with initial instances count: 0 
-cloud-eureka-server 2023-03-13 17:25:36.444 INFO com.netflix.eureka.DefaultEurekaServerContext.initialize Initializing ... 
-cloud-eureka-server 2023-03-13 17:25:36.445 INFO com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes Adding new peer nodes [http://eureka1:7001/eureka/] 
-cloud-eureka-server 2023-03-13 17:25:36.448 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
-cloud-eureka-server 2023-03-13 17:25:36.448 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
-cloud-eureka-server 2023-03-13 17:25:36.448 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
-cloud-eureka-server 2023-03-13 17:25:36.448 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
-cloud-eureka-server 2023-03-13 17:25:36.503 INFO com.netflix.eureka.cluster.PeerEurekaNodes.start Replica node URL:  http://eureka1:7001/eureka/ 
-cloud-eureka-server 2023-03-13 17:25:36.510 INFO com.netflix.eureka.DefaultEurekaServerContext.initialize Initialized 
-cloud-eureka-server 2023-03-13 17:25:36.517 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> Exposing 1 endpoint(s) beneath base path '/actuator' 
-cloud-eureka-server 2023-03-13 17:25:36.568 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register Registering application CLOUD-EUREKA-SERVER with eureka with status UP 
-cloud-eureka-server 2023-03-13 17:25:36.568 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678699536568, current=UP, previous=STARTING] 
-cloud-eureka-server 2023-03-13 17:25:36.570 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001: registering service... 
-cloud-eureka-server 2023-03-13 17:25:36.583 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.isAws isAws returned false 
-cloud-eureka-server 2023-03-13 17:25:36.583 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.initEurekaServerContext Initialized server context 
-cloud-eureka-server 2023-03-13 17:25:36.591 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 7002 (http) with context path '' 
-cloud-eureka-server 2023-03-13 17:25:36.592 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent Updating port to 7002 
-cloud-eureka-server 2023-03-13 17:25:36.650 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
-cloud-eureka-server 2023-03-13 17:25:36.650 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
-cloud-eureka-server 2023-03-13 17:25:36.652 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 2 ms 
-cloud-eureka-server 2023-03-13 17:25:36.722 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - registration status: 204 
-cloud-eureka-server 2023-03-13 17:25:36.928 INFO org.springframework.boot.StartupInfoLogger.logStarted Started EurekaServerApplication in 8.963 seconds (JVM running for 9.907) 
-cloud-eureka-server 2023-03-13 17:25:37.439 ERROR com.netflix.eureka.cluster.ReplicationTaskProcessor.logNetworkErrorSample Network level connection to peer eureka1; retrying after delay 
-com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
+cloud-eureka-server 2023-03-20 10:52:33.998 INFO com.netflix.discovery.DiscoveryClient.<init> Initial registry fetch from primary servers failed 
+cloud-eureka-server 2023-03-20 10:52:33.998 WARN com.netflix.discovery.DiscoveryClient$1.get Using default backup registry implementation which does not do anything. 
+cloud-eureka-server 2023-03-20 10:52:33.999 INFO com.netflix.discovery.DiscoveryClient.<init> Initial registry fetch from backup servers failed 
+cloud-eureka-server 2023-03-20 10:52:34.002 INFO com.netflix.discovery.DiscoveryClient.initScheduledTasks Starting heartbeat executor: renew interval is: 30 
+cloud-eureka-server 2023-03-20 10:52:34.006 INFO com.netflix.discovery.InstanceInfoReplicator.<init> InstanceInfoReplicator onDemand update allowed rate per min is 4 
+cloud-eureka-server 2023-03-20 10:52:34.013 INFO com.netflix.discovery.DiscoveryClient.<init> Discovery Client initialized at timestamp 1679280754011 with initial instances count: 0 
+cloud-eureka-server 2023-03-20 10:52:34.063 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
 	at com.sun.jersey.api.client.Client.handle(Client.java:652)
 	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
 	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
-	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
-	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
-	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:196)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:167)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1101)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1014)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:441)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:283)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:279)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:66)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:374)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:376)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:195)
+	at com.sun.proxy.$Proxy71.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.jojo.springcloud.EurekaServerApplication.main(EurekaServerApplication.java:17)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
@@ -416,107 +523,231 @@ Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 10 common frames omitted
-cloud-eureka-server 2023-03-13 17:25:47.722 ERROR com.netflix.eureka.cluster.ReplicationTaskProcessor.logNetworkErrorSample Network level connection to peer eureka1; retrying after delay 
-com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
-	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
-	at com.sun.jersey.api.client.Client.handle(Client.java:652)
-	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
-	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
-	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
-	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
-	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 10 common frames omitted
-cloud-eureka-server 2023-03-13 17:25:57.794 ERROR com.netflix.eureka.cluster.ReplicationTaskProcessor.logNetworkErrorSample Network level connection to peer eureka1; retrying after delay 
-com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
-	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
-	at com.sun.jersey.api.client.Client.handle(Client.java:652)
-	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
-	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
-	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
-	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
-	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 10 common frames omitted
-cloud-eureka-server 2023-03-13 17:26:06.397 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
-cloud-eureka-server 2023-03-13 17:26:06.398 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
-cloud-eureka-server 2023-03-13 17:26:06.398 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
-cloud-eureka-server 2023-03-13 17:26:06.399 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
-cloud-eureka-server 2023-03-13 17:26:06.399 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
-cloud-eureka-server 2023-03-13 17:26:06.400 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
-cloud-eureka-server 2023-03-13 17:26:06.400 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
-cloud-eureka-server 2023-03-13 17:26:06.437 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry The response status is 200 
-cloud-eureka-server 2023-03-13 17:26:06.602 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Got 1 instances from neighboring DS node 
-cloud-eureka-server 2023-03-13 17:26:06.603 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Renew threshold is: 1 
-cloud-eureka-server 2023-03-13 17:26:06.603 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Changing status to UP 
-cloud-eureka-server 2023-03-13 17:26:06.609 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration.lambda$start$0 Started Eureka Server 
-cloud-eureka-server 2023-03-13 17:26:08.055 ERROR com.netflix.eureka.cluster.ReplicationTaskProcessor.logNetworkErrorSample Network level connection to peer eureka1; retrying after delay 
-com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
-	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
-	at com.sun.jersey.api.client.Client.handle(Client.java:652)
-	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
-	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
-	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
-	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
-	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka1:7001 timed out
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 10 common frames omitted
-cloud-eureka-server 2023-03-13 17:26:16.267 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister Unregistering application CLOUD-EUREKA-SERVER with eureka with status DOWN 
-cloud-eureka-server 2023-03-13 17:26:16.267 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1678699576267, current=DOWN, previous=UP] 
-cloud-eureka-server 2023-03-13 17:26:16.268 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001: registering service... 
-cloud-eureka-server 2023-03-13 17:26:16.298 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - registration status: 204 
-cloud-eureka-server 2023-03-13 17:26:16.581 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.contextDestroyed Shutting down Eureka Server.. 
-cloud-eureka-server 2023-03-13 17:26:16.586 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shutting down ... 
-cloud-eureka-server 2023-03-13 17:26:16.595 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shut down 
-cloud-eureka-server 2023-03-13 17:26:16.595 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.contextDestroyed Eureka Service is now shutdown... 
-cloud-eureka-server 2023-03-13 17:26:16.595 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shutting down ... 
-cloud-eureka-server 2023-03-13 17:26:16.598 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shut down 
-cloud-eureka-server 2023-03-13 17:26:16.603 INFO com.netflix.discovery.DiscoveryClient.shutdown Shutting down DiscoveryClient ... 
-cloud-eureka-server 2023-03-13 17:26:19.609 INFO com.netflix.discovery.DiscoveryClient.unregister Unregistering ... 
-cloud-eureka-server 2023-03-13 17:26:21.658 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	... 101 more
+ 
+cloud-eureka-server 2023-03-20 10:52:34.065 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 10:52:34.082 INFO com.netflix.eureka.DefaultEurekaServerContext.initialize Initializing ... 
+cloud-eureka-server 2023-03-20 10:52:34.084 INFO com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes Adding new peer nodes [http://eureka2:7002/eureka/] 
+cloud-eureka-server 2023-03-20 10:52:34.090 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:34.091 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:34.091 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:34.092 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:34.195 INFO com.netflix.eureka.cluster.PeerEurekaNodes.start Replica node URL:  http://eureka2:7002/eureka/ 
+cloud-eureka-server 2023-03-20 10:52:34.208 INFO com.netflix.eureka.DefaultEurekaServerContext.initialize Initialized 
+cloud-eureka-server 2023-03-20 10:52:34.224 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> Exposing 1 endpoint(s) beneath base path '/actuator' 
+cloud-eureka-server 2023-03-20 10:52:34.328 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register Registering application CLOUD-EUREKA-SERVER with eureka with status UP 
+cloud-eureka-server 2023-03-20 10:52:34.329 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1679280754329, current=UP, previous=STARTING] 
+cloud-eureka-server 2023-03-20 10:52:34.332 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001: registering service... 
+cloud-eureka-server 2023-03-20 10:52:34.353 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.isAws isAws returned false 
+cloud-eureka-server 2023-03-20 10:52:34.354 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.initEurekaServerContext Initialized server context 
+cloud-eureka-server 2023-03-20 10:52:34.370 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 7001 (http) with context path '' 
+cloud-eureka-server 2023-03-20 10:52:34.372 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent Updating port to 7001 
+cloud-eureka-server 2023-03-20 10:52:34.490 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+cloud-eureka-server 2023-03-20 10:52:34.491 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+cloud-eureka-server 2023-03-20 10:52:34.494 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 3 ms 
+cloud-eureka-server 2023-03-20 10:52:34.617 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - registration status: 204 
+cloud-eureka-server 2023-03-20 10:52:34.732 INFO com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution succeeded on retry #1 
+cloud-eureka-server 2023-03-20 10:52:34.732 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry The response status is 200 
+cloud-eureka-server 2023-03-20 10:52:34.736 INFO com.netflix.discovery.DiscoveryClient.initScheduledTasks Starting heartbeat executor: renew interval is: 30 
+cloud-eureka-server 2023-03-20 10:52:34.739 INFO com.netflix.discovery.InstanceInfoReplicator.<init> InstanceInfoReplicator onDemand update allowed rate per min is 4 
+cloud-eureka-server 2023-03-20 10:52:34.743 INFO com.netflix.discovery.DiscoveryClient.<init> Discovery Client initialized at timestamp 1679280754742 with initial instances count: 1 
+cloud-eureka-server 2023-03-20 10:52:34.774 INFO com.netflix.eureka.DefaultEurekaServerContext.initialize Initializing ... 
+cloud-eureka-server 2023-03-20 10:52:34.775 INFO com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes Adding new peer nodes [http://eureka1:7001/eureka/] 
+cloud-eureka-server 2023-03-20 10:52:34.778 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON encoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:34.778 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using JSON decoding codec LegacyJacksonJson 
+cloud-eureka-server 2023-03-20 10:52:34.778 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML encoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:34.778 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider.<init> Using XML decoding codec XStreamXml 
+cloud-eureka-server 2023-03-20 10:52:34.845 INFO com.netflix.eureka.cluster.PeerEurekaNodes.start Replica node URL:  http://eureka1:7001/eureka/ 
+cloud-eureka-server 2023-03-20 10:52:34.855 INFO com.netflix.eureka.DefaultEurekaServerContext.initialize Initialized 
+cloud-eureka-server 2023-03-20 10:52:34.864 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> Exposing 1 endpoint(s) beneath base path '/actuator' 
+cloud-eureka-server 2023-03-20 10:52:34.919 INFO org.springframework.boot.StartupInfoLogger.logStarted Started EurekaServerApplication in 11.086 seconds (JVM running for 12.027) 
+cloud-eureka-server 2023-03-20 10:52:34.933 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register Registering application CLOUD-EUREKA-SERVER with eureka with status UP 
+cloud-eureka-server 2023-03-20 10:52:34.934 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1679280754934, current=UP, previous=STARTING] 
+cloud-eureka-server 2023-03-20 10:52:34.936 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001: registering service... 
+cloud-eureka-server 2023-03-20 10:52:34.951 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.isAws isAws returned false 
+cloud-eureka-server 2023-03-20 10:52:34.952 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.initEurekaServerContext Initialized server context 
+cloud-eureka-server 2023-03-20 10:52:34.959 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Got 1 instances from neighboring DS node 
+cloud-eureka-server 2023-03-20 10:52:34.959 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Renew threshold is: 1 
+cloud-eureka-server 2023-03-20 10:52:34.960 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Changing status to UP 
+cloud-eureka-server 2023-03-20 10:52:34.965 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 7002 (http) with context path '' 
+cloud-eureka-server 2023-03-20 10:52:34.965 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent Updating port to 7002 
+cloud-eureka-server 2023-03-20 10:52:34.968 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration.lambda$start$0 Started Eureka Server 
+cloud-eureka-server 2023-03-20 10:52:35.015 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+cloud-eureka-server 2023-03-20 10:52:35.015 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+cloud-eureka-server 2023-03-20 10:52:35.017 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 2 ms 
+cloud-eureka-server 2023-03-20 10:52:35.042 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - registration status: 204 
+cloud-eureka-server 2023-03-20 10:52:35.118 WARN com.netflix.eureka.registry.AbstractInstanceRegistry.register There is an existing lease and the existing lease's dirty timestamp 1679280754934 is greater than the one that is being registered 1679280754328 
+cloud-eureka-server 2023-03-20 10:52:35.119 WARN com.netflix.eureka.registry.AbstractInstanceRegistry.register Using the existing instanceInfo instead of the new instanceInfo as the registrant 
+cloud-eureka-server 2023-03-20 10:52:35.549 INFO org.springframework.boot.StartupInfoLogger.logStarted Started EurekaServerApplication in 8.619 seconds (JVM running for 9.609) 
+cloud-eureka-server 2023-03-20 10:53:04.012 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Disable delta property : false 
+cloud-eureka-server 2023-03-20 10:53:04.013 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Single vip registry refresh property : null 
+cloud-eureka-server 2023-03-20 10:53:04.013 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Force full registry fetch : false 
+cloud-eureka-server 2023-03-20 10:53:04.013 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application is null : false 
+cloud-eureka-server 2023-03-20 10:53:04.013 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Registered Applications size is zero : true 
+cloud-eureka-server 2023-03-20 10:53:04.013 INFO com.netflix.discovery.DiscoveryClient.fetchRegistry Application version is -1: true 
+cloud-eureka-server 2023-03-20 10:53:04.013 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry Getting all instance registry info from the eureka server 
+cloud-eureka-server 2023-03-20 10:53:04.024 INFO com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry The response status is 200 
+cloud-eureka-server 2023-03-20 10:53:04.357 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Got 2 instances from neighboring DS node 
+cloud-eureka-server 2023-03-20 10:53:04.357 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Renew threshold is: 3 
+cloud-eureka-server 2023-03-20 10:53:04.357 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.openForTraffic Changing status to UP 
+cloud-eureka-server 2023-03-20 10:53:04.363 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration.lambda$start$0 Started Eureka Server 
+cloud-eureka-server 2023-03-20 10:57:29.882 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 10:57:31.994 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:02:29.886 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:02:32.004 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:07:29.897 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:07:32.018 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:07:34.216 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:07:34.857 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:12:29.909 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:12:32.020 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:17:29.912 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:17:32.022 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:22:29.920 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:22:32.036 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:22:34.227 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:22:34.864 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:27:29.937 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:27:32.039 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:32:29.941 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:32:32.045 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:37:29.944 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:37:32.055 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:37:34.239 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:37:34.869 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:42:29.951 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:42:32.064 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:47:29.964 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:47:32.077 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:52:29.972 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:52:32.079 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:52:34.242 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:52:34.879 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 11:57:29.981 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 11:57:32.081 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:02:29.994 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:02:32.096 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:07:29.998 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:07:32.110 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:07:34.244 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:07:34.881 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:12:30.005 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:12:32.127 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:17:30.022 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:17:32.130 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:22:30.033 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:22:32.144 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:22:34.254 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:22:34.892 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:27:30.040 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:27:32.151 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:32:30.045 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:32:32.158 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:37:30.052 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:37:32.166 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:37:34.266 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:37:34.902 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:42:30.055 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:42:32.180 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:47:30.069 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:47:32.191 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:52:30.080 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:52:32.204 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:52:34.275 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:52:34.910 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 12:57:30.089 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 12:57:32.214 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:02:30.091 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:02:32.221 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:07:30.103 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:07:32.226 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:07:34.277 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:07:34.913 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:12:30.105 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:12:32.233 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:17:30.121 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:17:32.248 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:22:30.134 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:22:32.251 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:22:34.280 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:22:34.917 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:27:30.137 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:27:32.265 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:32:30.140 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:32:32.266 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:37:30.144 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:37:32.268 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:37:34.283 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:37:34.922 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:42:30.156 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:42:32.284 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:47:30.167 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:47:32.292 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:52:30.169 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:52:32.298 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:52:34.285 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:52:34.939 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 13:57:30.176 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 13:57:32.305 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:02:30.182 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:02:32.315 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:07:30.183 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:07:32.327 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:07:34.301 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 14:07:34.940 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 14:12:30.196 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:12:32.343 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:17:30.212 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:17:32.359 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:22:30.216 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:22:32.372 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:22:34.303 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 14:22:34.952 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 14:27:30.227 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:27:32.386 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:32:30.240 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:32:32.387 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:37:30.248 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:37:32.404 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:37:34.311 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 14:37:34.966 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.updateRenewalThreshold Current renewal threshold is : 3 
+cloud-eureka-server 2023-03-20 14:42:30.250 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:42:32.417 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:47:30.252 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:47:32.421 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints Resolving eureka endpoints via configuration 
+cloud-eureka-server 2023-03-20 14:51:04.078 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister Unregistering application CLOUD-EUREKA-SERVER with eureka with status DOWN 
+cloud-eureka-server 2023-03-20 14:51:04.079 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1679295064079, current=DOWN, previous=UP] 
+cloud-eureka-server 2023-03-20 14:51:04.079 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001: registering service... 
+cloud-eureka-server 2023-03-20 14:51:04.095 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - registration status: 204 
+cloud-eureka-server 2023-03-20 14:51:04.107 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister Unregistering application CLOUD-EUREKA-SERVER with eureka with status DOWN 
+cloud-eureka-server 2023-03-20 14:51:04.107 INFO com.netflix.discovery.DiscoveryClient$3.notify Saw local status change event StatusChangeEvent [timestamp=1679295064107, current=DOWN, previous=UP] 
+cloud-eureka-server 2023-03-20 14:51:04.108 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001: registering service... 
+cloud-eureka-server 2023-03-20 14:51:04.127 INFO com.netflix.discovery.DiscoveryClient.register DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - registration status: 204 
+cloud-eureka-server 2023-03-20 14:51:04.426 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.contextDestroyed Shutting down Eureka Server.. 
+cloud-eureka-server 2023-03-20 14:51:04.442 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shutting down ... 
+cloud-eureka-server 2023-03-20 14:51:04.444 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.445 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.446 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.447 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.460 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shut down 
+cloud-eureka-server 2023-03-20 14:51:04.460 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.contextDestroyed Eureka Service is now shutdown... 
+cloud-eureka-server 2023-03-20 14:51:04.461 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shutting down ... 
+cloud-eureka-server 2023-03-20 14:51:04.467 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.contextDestroyed Shutting down Eureka Server.. 
+cloud-eureka-server 2023-03-20 14:51:04.467 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shut down 
+cloud-eureka-server 2023-03-20 14:51:04.471 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shutting down ... 
+cloud-eureka-server 2023-03-20 14:51:04.473 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.476 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.477 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.478 INFO com.netflix.servo.monitor.StatsMonitor.getMonitors Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+cloud-eureka-server 2023-03-20 14:51:04.482 INFO com.netflix.discovery.DiscoveryClient.shutdown Shutting down DiscoveryClient ... 
+cloud-eureka-server 2023-03-20 14:51:04.489 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shut down 
+cloud-eureka-server 2023-03-20 14:51:04.489 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap.contextDestroyed Eureka Service is now shutdown... 
+cloud-eureka-server 2023-03-20 14:51:04.491 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shutting down ... 
+cloud-eureka-server 2023-03-20 14:51:04.496 INFO com.netflix.eureka.DefaultEurekaServerContext.shutdown Shut down 
+cloud-eureka-server 2023-03-20 14:51:04.506 INFO com.netflix.discovery.DiscoveryClient.shutdown Shutting down DiscoveryClient ... 
+cloud-eureka-server 2023-03-20 14:51:07.497 INFO com.netflix.discovery.DiscoveryClient.unregister Unregistering ... 
+cloud-eureka-server 2023-03-20 14:51:07.511 INFO com.netflix.discovery.DiscoveryClient.unregister Unregistering ... 
+cloud-eureka-server 2023-03-20 14:51:09.555 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -585,8 +816,78 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 46 more
  
-cloud-eureka-server 2023-03-13 17:26:21.659 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
-cloud-eureka-server 2023-03-13 17:26:23.702 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+cloud-eureka-server 2023-03-20 14:51:09.555 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 more
+ 
+cloud-eureka-server 2023-03-20 14:51:09.557 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 14:51:09.557 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 14:51:11.587 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -656,8 +957,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 47 more
  
-cloud-eureka-server 2023-03-13 17:26:23.703 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
-cloud-eureka-server 2023-03-13 17:26:25.765 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+cloud-eureka-server 2023-03-20 14:51:11.587 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka2:7002/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -727,8 +1027,80 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 47 more
  
-cloud-eureka-server 2023-03-13 17:26:25.766 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
-cloud-eureka-server 2023-03-13 17:26:25.767 ERROR com.netflix.discovery.DiscoveryClient.unregister DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - de-registration failedRetry limit reached; giving up on completing the request 
+cloud-eureka-server 2023-03-20 14:51:11.588 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 14:51:11.588 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 14:51:13.606 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 47 more
+ 
+cloud-eureka-server 2023-03-20 14:51:13.606 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 14:51:13.611 ERROR com.netflix.discovery.DiscoveryClient.unregister DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - de-registration failedRetry limit reached; giving up on completing the request 
 com.netflix.discovery.shared.transport.TransportException: Retry limit reached; giving up on completing the request
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:139)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -762,4 +1134,110 @@ com.netflix.discovery.shared.transport.TransportException: Retry limit reached; 
 	at java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
 	at java.lang.Thread.run(Thread.java:748)
-cloud-eureka-server 2023-03-13 17:26:25.777 INFO com.netflix.discovery.DiscoveryClient.shutdown Completed shut down of DiscoveryClient 
+cloud-eureka-server 2023-03-20 14:51:13.618 INFO com.netflix.discovery.DiscoveryClient.shutdown Completed shut down of DiscoveryClient 
+cloud-eureka-server 2023-03-20 14:51:13.636 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka1:7001/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 47 more
+ 
+cloud-eureka-server 2023-03-20 14:51:13.637 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute Request execution failed with message: java.net.ConnectException: Connection refused: connect 
+cloud-eureka-server 2023-03-20 14:51:13.643 ERROR com.netflix.discovery.DiscoveryClient.unregister DiscoveryClient_CLOUD-EUREKA-SERVER/eureka7001 - de-registration failedRetry limit reached; giving up on completing the request 
+com.netflix.discovery.shared.transport.TransportException: Retry limit reached; giving up on completing the request
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:139)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+cloud-eureka-server 2023-03-20 14:51:13.649 INFO com.netflix.discovery.DiscoveryClient.shutdown Completed shut down of DiscoveryClient 
